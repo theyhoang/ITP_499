@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bece7d2-9230-4197-92ce-9fbd80aa51da" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Yen Hoang\Documents\GitHub\ITP_499\PHP-Auth-A3\Vagrantfile" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Yen Hoang\Documents\GitHub\ITP_499\PHP-Auth-A3\bootstrap.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-OOP-A2" afterPath="$PROJECT_DIR$/PHP-OOP-A2" />
+      <change type="DELETED" beforePath="C:\Users\Yen Hoang\Documents\GitHub\ITP_499\PHP-Auth-A3\Vagrantfile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-Auth-A3/logout.php" afterPath="$PROJECT_DIR$/PHP-Auth-A3/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-Auth-A3/dashboard.php" afterPath="$PROJECT_DIR$/PHP-Auth-A3/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdo-dvd" afterPath="$PROJECT_DIR$/pdo-dvd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-OOP-A2" afterPath="$PROJECT_DIR$/PHP-OOP-A2" />
     </list>
     <ignored path="ITP_499.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/index.php">
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+            <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
+      <file leaf-file-name="db.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="578">
+            <state line="13" column="14" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -49,7 +52,16 @@
       <file leaf-file-name="auth.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/vendor/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="58" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -58,24 +70,21 @@
       <file leaf-file-name="login-process.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-7.730769" vertical-offset="462" max-vertical-offset="1173">
+            <state line="33" column="34" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1258">
               <folding>
-                <element signature="e#159#204#0" expanded="true" />
-                <marker date="1392176968187" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
-                <marker date="1392176968187" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
-                <marker date="1392176968187" expanded="true" signature="1284:1355" placeholder="..." />
+                <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+                <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+                <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="397" selection-end="397" vertical-scroll-proportion="0.54448396" vertical-offset="0" max-vertical-offset="562">
-              <folding>
-                <element signature="e#6#90#0" expanded="true" />
-              </folding>
+            <state line="20" column="39" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +92,7 @@
       <file leaf-file-name="logout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/logout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="20" column="18" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -104,7 +113,9 @@
       <list>
         <option value="$PROJECT_DIR$/PHP-Auth-A3/composer.json" />
         <option value="$PROJECT_DIR$/PHP-Auth-A3/login.php" />
+        <option value="$PROJECT_DIR$/PHP-Auth-A3/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/PHP-Auth-A3/login-process.php" />
+        <option value="$PROJECT_DIR$/PHP-Auth-A3/logout.php" />
         <option value="$PROJECT_DIR$/PHP-Auth-A3/dashboard.php" />
       </list>
     </option>
@@ -142,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,16 +181,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-OOP-A2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITP_499" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITP_499" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="PHP-Auth-A3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITP_499" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITP_499" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Auth-A3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../499-laravel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -233,17 +276,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2688822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -272,25 +315,88 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/composer.json">
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+        <state line="44" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1258">
+          <folding>
+            <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/db.php">
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="578">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1258">
+          <folding>
+            <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
@@ -309,58 +415,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="17" column="35" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="116" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1020">
           <folding>
-            <element signature="e#159#204#0" expanded="true" />
-            <marker date="1392176968187" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="1284:1355" placeholder="..." />
+            <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song-process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="26" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/classes/Song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="8" selection-start="986" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="986">
-          <folding>
-            <marker date="1390964468552" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
+        <state line="48" column="8" selection-start="986" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
@@ -379,51 +470,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="17" column="35" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="116" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1020">
           <folding>
-            <element signature="e#159#204#0" expanded="true" />
-            <marker date="1392176968187" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="1284:1355" placeholder="..." />
+            <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song-process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="26" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/classes/Song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="8" selection-start="986" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="986">
-          <folding>
-            <marker date="1390964468552" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
+        <state line="48" column="8" selection-start="986" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
@@ -435,19 +513,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="785" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="35" column="4" selection-start="785" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
           <folding>
-            <element signature="e#159#204#0" expanded="true" />
-            <marker date="1392176968187" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="1284:1355" placeholder="..." />
+            <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -479,8 +554,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748">
+        <state line="17" column="35" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/classes/Song.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="986" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.6598891" vertical-offset="0" max-vertical-offset="541" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.18149467" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="578">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="58" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/classes/SongQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="39" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="34" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1258">
+          <folding>
+            <marker date="1392601691206" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
+            <marker date="1392601691206" expanded="true" signature="1284:1355" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -489,82 +633,10 @@
         <state line="15" column="2" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31423292" vertical-offset="0" max-vertical-offset="541" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/classes/Song.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="8" selection-start="986" selection-end="1069" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="986">
-          <folding>
-            <marker date="1390964468552" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-OOP-A2/add-song-process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="594" selection-end="594" vertical-scroll-proportion="0.6598891" vertical-offset="0" max-vertical-offset="541">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.18149467" vertical-offset="0" max-vertical-offset="562">
+        <state line="13" column="14" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="272">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="232" selection-end="232" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/login-process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-7.730769" vertical-offset="462" max-vertical-offset="1173">
-          <folding>
-            <element signature="e#159#204#0" expanded="true" />
-            <marker date="1392176968187" expanded="true" signature="514:593" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="514:595" placeholder="SELECT * FRO..users..." />
-            <marker date="1392176968187" expanded="true" signature="1284:1355" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-Auth-A3/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="397" selection-end="397" vertical-scroll-proportion="0.54448396" vertical-offset="0" max-vertical-offset="562">
-          <folding>
-            <element signature="e#6#90#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

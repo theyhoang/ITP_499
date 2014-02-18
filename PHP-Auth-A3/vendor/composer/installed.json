@@ -7,18 +7,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/HttpFoundation.git",
-            "reference": "70ab340b31615dbf95727cb2246c784f04da837d"
+            "reference": "ddc6db30611ebea269434dfb1a53f365bfcbdd1a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/70ab340b31615dbf95727cb2246c784f04da837d",
-            "reference": "70ab340b31615dbf95727cb2246c784f04da837d",
+            "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/ddc6db30611ebea269434dfb1a53f365bfcbdd1a",
+            "reference": "ddc6db30611ebea269434dfb1a53f365bfcbdd1a",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2014-02-03 17:15:42",
+        "time": "2014-02-11 13:52:21",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -41,7 +41,9 @@
         "authors": [
             {
                 "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
             },
             {
                 "name": "Symfony Community",

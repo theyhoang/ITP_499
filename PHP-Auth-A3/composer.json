@@ -2,5 +2,10 @@
     "require": {
         "symfony/http-foundation": "2.5.*@dev",
         "nesbot/carbon": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ITP": "./"
+        }
     }
 }

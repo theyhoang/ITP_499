@@ -11,11 +11,20 @@ use Symfony\Component\HttpFoundation\Session\Session;
 $session = new Session();
 $session->start();
 
-foreach ($session->getFlashBag()->get('error', array()) as $message) {
-    echo "<div class='flash-warning'>$message</div>";
-}
+
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <?php
+    foreach ($session->getFlashBag()->get('error', array()) as $message) {
+        echo "<div class='flash-warning'>$message</div>";
+    }
+    ?>
+</head>
+<body>
 <form method="post" action="login-process.php">
     <div>
         Username: <input type="text" name="username" />
@@ -27,3 +36,6 @@ foreach ($session->getFlashBag()->get('error', array()) as $message) {
         <input type="submit" value="Submit" />
     </div>
 </form>
+</body>
+</html>
+

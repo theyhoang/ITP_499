@@ -6,14 +6,14 @@
  * Time: 11:32 PM
  */
 
-require_once 'db.php';
-
 require __DIR__ . '/vendor/autoload.php';
+require_once 'db.php';
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Carbon\Carbon;
+use ITP\Auth;
 
 
 
@@ -26,20 +26,16 @@ $password = $request->get('password');
 $session = new Session();
 $session->start();
 
+$auth = new Auth($pdo);
 
+$response = $auth->attempt($username,$password);
 
-$sql = "SELECT * FROM users WHERE username = '$username' AND password = SHA1('$password')";
-
-$statement = $pdo->prepare($sql);
-$response = $statement->execute();
-
-if ($response === true) :
-    if ($statement->rowCount()==1) : {
+if ($response) {
         echo "<p>Found username and password</p>";
         $session->set('username',$username);
 
         // put results in an array so we can fetch columns
-        $result = $statement->fetch(PDO::FETCH_ASSOC);
+        $result = $response->fetch(PDO::FETCH_ASSOC);
         $session->set('email',$result['email']);
         $session->set('timestamp',Carbon::now());
 
@@ -49,20 +45,17 @@ if ($response === true) :
             'You have successfully logged in!'
         );
         $response->send();
-    }
-    else :{
-        echo "<p>Username/password not found";
-        $response = new RedirectResponse('login.php');
-        // add flash messages
-        $session->getFlashBag()->add(
-            'error',
-            'Incorrect credentials.'
-        );
-        $response->send();
-    }
-    endif;
-else :
-    echo "<p>SQL statement not executed correctly</p>";
-endif;
+}
+else{
+    echo "<p>Username/password not found";
+    $response = new RedirectResponse('login.php');
+    // add flash messages
+    $session->getFlashBag()->add(
+        'error',
+        'Incorrect credentials.'
+    );
+    $response->send();
+
+}
 
 
